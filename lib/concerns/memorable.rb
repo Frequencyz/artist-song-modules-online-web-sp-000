@@ -2,11 +2,11 @@ require_relative '../lib/concerns/memorable'
 
 module Memorable
   
-  def reset_all
+  def self.reset_all
     
   end
   
-  def count
+  def self.count
     
   end
 end
