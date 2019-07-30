@@ -42,5 +42,5 @@ class Artist
 end
 
 class Artist
-  extend Memorable
+  extend Artist::Memorable
 end
