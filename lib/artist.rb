@@ -33,6 +33,7 @@ class Artist
 end
 
 class Artist
-  extend Memorable
+  extend Memorable::ClassMethods
+  include Memorable::InstanceMethods
   include Paramable
 end
