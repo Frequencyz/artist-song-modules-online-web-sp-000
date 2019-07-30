@@ -37,4 +37,5 @@ end
 
 class Artist
   extend Memorable
+  include Paramble
 end
