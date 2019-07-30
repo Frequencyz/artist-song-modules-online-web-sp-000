@@ -27,6 +27,7 @@ class Song
 end
 
 class Song 
-  extend Memorable
+  extend Memorable::ClassMethods
+  include Memorable::InstanceMehods
   include Paramable
 end
