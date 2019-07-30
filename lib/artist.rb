@@ -41,5 +41,6 @@ class Artist
   end
 end
 
-class Artist 
-  
+class Artist
+  extend Memorable
+end
