@@ -36,5 +36,5 @@ class Song
 end
 
 class Song 
-  extend Song::Memorable
+  extend Memorable
 end
