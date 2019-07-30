@@ -34,3 +34,7 @@ class Song
     name.downcase.gsub(' ', '-')
   end
 end
+
+class Song 
+  extend Memorable
+end
