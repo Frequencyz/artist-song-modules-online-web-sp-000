@@ -31,5 +31,5 @@ end
 
 class Song 
   extend Memorable
-  include Paramble
+  include Paramable
 end
